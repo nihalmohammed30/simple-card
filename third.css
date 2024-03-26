@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+.container{
+    width: 50rem;
+    color: #262626;
+    border-radius: 6px;
+    border: 3px solid silver;
+    box-shadow: 0 0 39px 0 orange;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    color: #4361ee;
+}
+.head-3{
+    margin-top: 1.7rem;
+    margin-left: 2.5rem;
+    color: aqua;
+}
+.para{
+    margin-top: 1.2rem;
+    margin-left: 2.5rem;
+    line-height: 1.5rem;
+    color: silver;
+}
+.card{
+    display: inline-flex;
+    min-width:100%;
+    flex-wrap: wrap;
+}
+.card-1{
+    width: 50%;
+    background-color: #4361ee;
+    margin-top: 4rem;
+    border-radius: 6px 0px 0px 6px;
+}
+.card-1 h2{
+    color: white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.card-1 p{
+    color: silver;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    line-height: 1.4rem;
+}
+span{
+    font-size: 3rem;
+}
+.card-1 button{
+    margin-top: 1.2rem;
+    padding: 0.6rem 3rem;
+    margin-left: 2rem;
+    margin-bottom: 0.3rem;
+    border-radius: 2rem;
+    background-color: #8d0801;
+    color: white;
+}
+.card-2{
+    width: 50%;
+    background-color:#2ec4b6;
+    margin-top: 4rem;
+    border-radius: 0px 6px 6px 0px;
+}
+.card-2 h2{
+    color: white;
+    padding-left: 2rem;
+} 
+.list{
+    padding-top: 1.7rem;
+}
+.list-item{
+    padding-left: 2.3rem;
+    list-style: none;
+    line-height: 1.2rem;
+    color: silver;
+}
+@media screen and (max-width:768px) {
+    .card{
+        display: block;
+    }
+    .card-1{
+        min-width: 100%;
+        margin-top: 2rem;
+    }
+    .card-2{
+        margin-top: 1rem;
+        min-width: 100%;
+    }
+}
+
+
+
